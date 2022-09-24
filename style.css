@@ -1,0 +1,38 @@
+.container-fluid{
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 40% 20%;
+}
+
+.daniel{
+background-color:hsl(263, 55%, 52%) ;
+color: hsl(0, 0%, 100%);
+}
+
+.johnathan{
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.kira{
+
+}
+
+.jeanette{
+
+}
+
+.patrick{
+background-color: hsl(219, 29%, 14%);
+color: hsl(0, 0%, 100%);
+}
+
+span{
+    display: block;
+    color: hsl(0, 0%, 81%);
+}
+img{
+    border: 1px solid white;
+    border-radius: 100%;
+    max-width: 40px;
+}
