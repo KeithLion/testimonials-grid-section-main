@@ -1,9 +1,10 @@
-.container{
+main{
     display: grid;
     gap: 1.5rem;
+    padding: 1.5rem;
 }
 @media (min-width: 375px){
-.container{
+main{
     margin-top: 10%;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -19,11 +20,10 @@ body{
     font-size: 13px;
 }
 footer{
-    position: fixed;
+    position: static;
     text-align: center;
     left: 0;
     width: 100%;
-    bottom: 5px;
 }
 .container{
     font-family: 'Barlow Semi Condensed', sans-serif;
